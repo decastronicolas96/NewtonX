@@ -1,0 +1,31 @@
+export const colors = {
+  bg: "#0f1117",
+  sidebar: "#161820",
+  card: "#1c1e27",
+  cardHover: "#22242f",
+  border: "#2a2d3a",
+  borderLight: "#353849",
+  text: "#e4e4e8",
+  textMuted: "#8b8d98",
+  textDim: "#5f6170",
+  accent: "#4f8cff",
+  accentDim: "#2a4a8a",
+  green: "#34c759",
+  greenDim: "#1a3a2a",
+  greenBg: "#0d2818",
+  yellow: "#f0b429",
+  yellowDim: "#3a2e10",
+  yellowBg: "#2a2008",
+  gray: "#3a3d4a",
+  grayBg: "#1a1c24",
+  red: "#ff453a",
+  purple: "#a78bfa",
+  coral: "#F87171",
+  warm: "#34c759",
+  cold: "#f0b429",
+};
+
+export const fonts = {
+  body: "'DM Sans', sans-serif",
+  mono: "'DM Mono', monospace",
+};
