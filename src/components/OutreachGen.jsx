@@ -52,7 +52,7 @@ export default function OutreachGen({ prospect, account }) {
       const text = await generateOutreach({ type, prospect, account, stakeholder });
       setOutput(text);
     } catch (e) {
-      setError('Unable to generate outreach. Please check your API key and try again.');
+      setError(e.message || 'Unable to generate outreach. Please check your API key and try again.');
     } finally {
       setLoading(false);
     }
